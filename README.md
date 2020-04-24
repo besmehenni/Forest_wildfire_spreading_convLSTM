@@ -69,7 +69,7 @@ The proposed architecture consists of a first layer of 64 kernel ConvLSTM with a
 
 ![PIC4](/md_images/pic4.PNG)
 
-In order to mitigate model overfitting, regularization techniques are introduced such as L2 regularization applied to certain layers. Some layers are followed by a drop-out at a rate of 0.4. The Adam gradient optimization algorithm has been selected. The model uses the Keras libray and Tensorflow as back-end in a GPU acceleration environment (Google Colab).<br/><br/>
+In order to mitigate model overfitting, regularization techniques are introduced such as L2 regularization applied to certain layers. Some layers are followed by a drop-out at a rate of 0.4. The Adam gradient optimization algorithm has been selected. The model is using the Keras library and Tensorflow as back-end in a GPU acceleration environment (Google Colab).<br/><br/>
 
 ## **4.	Classification results**
 
