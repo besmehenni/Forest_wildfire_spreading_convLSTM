@@ -1,4 +1,4 @@
-### Forest_fire_spreading_convLSTM_prediction
+# Modeling of forest fire spreading using a convLSTM neural netwok. Prediction 3-days forward.
 
 
 
