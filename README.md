@@ -74,7 +74,8 @@ In order to mitigate model overfitting, regularization techniques are introduced
 
 The following figures are the confusion matrix and the ROC curve on the test sample. It can be seen that the model predicted correctly 22 pixels in fires. The accuracy is 2.3%: the model made a lot of mistakes by having predicted a large number of pixels on fire where in reality there were no fires.
 
-|![PIC5](/md_images/pic5.PNG)|![PIC6](/md_images/pic6.PNG)|
+![PIC5](/md_images/pic5.PNG)
+![PIC6](/md_images/pic6.PNG)
 
 
 The overall accuracy is 90.0%. We must pay special attention to the Recall parameter because it is a problem not to predict burning pixels that are actually burning. Here the Recall, which we would like to see as high as possible, is only 14%. 
