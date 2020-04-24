@@ -1,13 +1,12 @@
-## Modeling the spreading of forest fire using a convLSTM neural netwok. Prediction 3-days forward.
+## Modeling of the spreading of forest fire using a convLSTM neural netwok. Prediction 3-days forward.
 
 
 
 
-### **Date: 23rd April 2020**
+#### **Date: 23rd April 2020**
+#### **Author: Bessam Mehenni**
 
-### **Author: Bessam Mehenni**
-
-### **Subject : Modeling the spreading of a forest fire using a ConvLSTM recurrent neural network. Province of Alberta, Canada.**<br/><br/>
+### **Subject : Modeling of the spreading of a forest fire using a ConvLSTM recurrent neural network. Province of Alberta, Canada.**<br/><br/>
 
 
 Full report is available and can be downloaded (“Report_EN”)<br/><br/>
