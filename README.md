@@ -7,8 +7,10 @@
 
 **Author: Bessam Mehenni**
 
-**Subject : Modeling the spreading a forest fire using a ConvLSTM recurrent neural network. Province of Alberta, Canada.
-Full report is available and can be downloaded (“Report_EN”)**<br/><br/>
+**Subject : Modeling the spreading a forest fire using a ConvLSTM recurrent neural network. Province of Alberta, Canada.**<br/><br/>
+
+
+Full report is available and can be downloaded (“Report_EN”)<br/><br/>
 
   
 
