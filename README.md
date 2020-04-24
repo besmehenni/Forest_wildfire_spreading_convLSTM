@@ -1,20 +1,20 @@
-# Modeling of forest fire spreading using a convLSTM neural netwok. Prediction 3-days forward.
+## Modeling the spreading of forest fire using a convLSTM neural netwok. Prediction 3-days forward.
 
 
 
 
-**Date: 23rd April 2020**
+### **Date: 23rd April 2020**
 
-**Author: Bessam Mehenni**
+### **Author: Bessam Mehenni**
 
-**Subject : Modeling the spreading a forest fire using a ConvLSTM recurrent neural network. Province of Alberta, Canada.**<br/><br/>
+### **Subject : Modeling the spreading of a forest fire using a ConvLSTM recurrent neural network. Province of Alberta, Canada.**<br/><br/>
 
 
 Full report is available and can be downloaded (“Report_EN”)<br/><br/>
 
   
 
-  **1.	Introduction**
+##  **1.	Introduction**
 
 This study was carried out as part of a final academic project at the Datascience Jedha school in Paris. The aim is to test the ability of a 2D spatial model of the ConvLSTM type to predict the propagation of a forest fire. 
 
@@ -28,7 +28,7 @@ The fire sequences we are studying occurred specifically in the Alberta region o
 ![PIC1](/md_images/pic1.PNG)
 
 
-**2.	Feature engineering and data preprocessing**
+## **2.	Feature engineering and data preprocessing**
 
 The model actually admits two images and an associated matrix of fire influence features that correspond to two successive days of data. The output is an image of the fire positions, a prediction at a horizon of 3 days after the last input image.
 
@@ -63,7 +63,7 @@ We have revealed this phenomenon during the Fort McMurray fire episode in Canada
 
 The dataset is divided chronologically into two parts: a 38-day training sample (approx. 56% or 111150 observations) and a 30-day validation sample (approx. 44% or 87750 observations). We also reserve a 9-day test sample. <br/><br/>
 
-**3.	Architecture of the recurrent neural network and associated parameters**
+## **3.	Architecture of the recurrent neural network and associated parameters**
 
 The proposed architecture consists of a first layer of 64 kernel ConvLSTM with a kernel size of (3x3), followed by a Maxpooling layer (2x2) which performs a subsampling operation to reduce the dimensions of the feature maps, followed by a dimension flattening and three fully-connected layers of 128,128 and 2925 neurons layers each. The layers are linked to a ReLu activation feature. A one-way classification is done at the output of the last layer using a sigmoid activation function that calculates the probability of the fire modality ("1"). 
 
@@ -72,7 +72,7 @@ The proposed architecture consists of a first layer of 64 kernel ConvLSTM with a
 
 In order to mitigate model overfitting, regularization techniques are introduced such as L2 regularization applied to certain layers. Some layers are followed by a drop-out at a rate of 0.4. The Adam gradient optimization algorithm has been selected.<br/><br/>
 
-**4.	Classification results**
+## **4.	Classification results**
 
 The following figures are the confusion matrix and the ROC curve on the test sample. It can be seen that the model predicted correctly 22 pixels in fires. The accuracy is 2.3%: the model made a lot of mistakes by having predicted a large number of pixels on fire where in reality there were no fires.
 
@@ -94,7 +94,7 @@ On the contrary, day n°9 shows a reduction in fire activity, which the model in
 
 Convolution identified patterns in the training images. The fire patterns are repeated from one day to the next, accompanied by the highlighting of certain areas of the image. These areas change from day to day. It is possible that the model was not sufficiently trained with heterogeneous cases. Our study suffers from a limited amount of training data. In this sense, we can distinguish a limit to the convolution: the training images did not have fire zones in the lower left corner of the images. This characteristic can be found in the model predictions, which favours non-fire in this part of the image.<br/><br/>
 
-**5.	Conclusion**
+## **5.	Conclusion**
 
 Our model does not provide an accurate view of the patterns of fire spread at three-days forward. The reason for this limitation could be the convolution principle itself and/or the limited amount of data used for its training and/or the complexity of the phenomena that the model is unable to understand based on the features we have given it.
 The fire data are from significant fire episodes in terms of duration and extent.  It seems difficult to image collecting more fire data from Alberta in large quantities. 
@@ -104,13 +104,13 @@ It should be pointed out that we have naively fed our model by putting it in cha
 
 We can say that the direct factors we have chosen are not sufficient to explain these phenomena. Other parameters related to the physics of fire and air in the atmosphere are involved.<br/><br/>
 
-**6.	Next**
+## **6.	Next**
 
 Research has investigated how fire and wind conditions affect the distribution behaviour of incandescent vegetation particles falling to the ground [3]. Froude's dimensionless number is introduced in order to propose laws for the calculation of the mean distance of fire jumps. The Froude number is a parameter used in fluid mechanics models to describe the flow regime. It is representative of the relative importance of inertial forces related to flow velocity versus floatability forces. In the case of the flare-up of the brandons, the regimes present may correspond either to a flow governed by the lateral wind or to an upward flow governed by the intensity of the fire. Formulas for calculating the average distance of the jump fire have been proposed as a function of the flow regime [3]. 
 
 A model can aspire to performance if we make it easier for it to understand complex phenomena. I think that the best models for predicting fire propagation will probably be at a crossroads between Deep learning (or even Reinforcement learning) and physical modelling. It will have to rely, in addition to the direct factors known to influence fire propagation (humidity, wind speed, etc.), on parameters generally used in physical modelling to explain phenomena. The Froude number would be one of them.<br/><br/>
 
-**7.	References**
+## **7.	References**
 
 [1] https://firms.modaps.eosdis.nasa.gov/, the 27th/03/2020
 
