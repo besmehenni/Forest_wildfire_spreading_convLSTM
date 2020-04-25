@@ -73,13 +73,13 @@ In order to mitigate model overfitting, regularization techniques are introduced
 
 ## **4.	Classification results**
 
-The following figures are the confusion matrix and the ROC curve on the test sample. It can be seen that the model predicted correctly 22 pixels in fires. The accuracy is 2.3%: the model made a lot of mistakes by having predicted a large number of pixels on fire where in reality there were no fires.
+The following figures are the confusion matrix and the ROC curve on the test sample. It can be seen that the model predicted correctly 22 pixels in fires. The Precision is 2.3%: the model made a lot of mistakes by having predicted a large number of pixels on fire where in reality there were no fires.
 
 ![PIC5](/md_images/pic5.PNG)
 ![PIC6](/md_images/pic6.PNG)
 
 
-The overall accuracy is 90.0%. We must pay special attention to the Recall parameter because it is a problem not to predict burning pixels that are actually burning. Here the Recall, which we would like to see as high as possible, is only 14%. 
+The overall Accuracy Score is 90.0%. We must pay special attention to the Recall parameter because it is a problem not to predict burning pixels that are actually burning. Here the Recall, which we would like to see as high as possible, is only 14%. 
 The following figure compares the predicted and actual images over the 9 days of the test sample. The fire probability threshold is set at 0.65.
 
 ![PIC7](/md_images/pic7.PNG)
@@ -96,7 +96,7 @@ Convolution identified patterns in the training images. The fire patterns are re
 ## **5.	Conclusion**
 
 Our model does not provide an accurate view of the patterns of fire spread at three-days forward. The reason for this limitation could be the convolution principle itself and/or the limited amount of data used for its training and/or the complexity of the phenomena that the model is unable to understand based on the features we have given it.
-The fire data are from significant fire episodes in terms of duration and extent.  It seems difficult to image collecting more fire data from Alberta in large quantities. 
+The fire data are from significant fire episodes in terms of duration and extent. It seems difficult to image that we can collect more fire data from Alberta in large quantities. 
 
 Nevertheless, our model has shown an ability to track an increase or decrease in fire activity, depending on the combined weather and non-weather conditions.
 It should be pointed out that we have naively fed our model by putting it in charge of building its understanding of propagation phenomena. But phenomena are not simple. They are complex and heterogeneous. For example, in the Fort McMurray surveys, we have observed that during two different days with similar conditions (wind speed, hydrometry, etc.), antagonistic phenomena occurred. In one case, a spread of 5 km in one day. In the other case, a propagation by particle jumps of more than 50 km. 
