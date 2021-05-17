@@ -52,7 +52,7 @@ We decided, rightly or wrongly, to use the Brightness, a quantity measured in th
 
 Data collected from fires in Alberta suggest several modes of fire spread. One of the phenomena is characterized by enormous apparent fire velocities and is proving to be very devastating. It is responsible for fire travel distances of several kilometers per day. This phenomenon leaves a swarm of small fires in its trail. 
 
-It is a phenomenon that can be observed in Canada, the United States, Australia and sometimes in some southern European countries such as Portugal and Spain. The explanation is that incandescent plant particles called “brandons” are projected forward. They participate in the very rapid advance of the flame front. This fire behaviour is very clearly different from other, more conventional behaviour, for which the apparent fire velocity is a few km per day.<br/><br/>
+It is a phenomenon that can be observed in Canada, the United States, Australia and sometimes in some southern European countries such as Portugal. The explanation is that incandescent plant particles called “brandons” are projected forward. They participate in the very rapid advance of the flame front. This fire behaviour is very clearly different from other, more conventional behaviour, for which the apparent fire velocity is a few km per day.<br/><br/>
 
 ![PIC3](/md_images/pic3.PNG)
 
