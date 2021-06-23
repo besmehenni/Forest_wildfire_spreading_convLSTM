@@ -61,7 +61,7 @@ It is a phenomenon that can be observed in Canada, the United States, Australia 
 ![PIC9](/md_images/pic3-2.PNG)
 
 
-We have revealed this phenomenon during the Fort McMurray fire episode in Canada by applying a descriptive modeling (Dbsan). A few days of occurrence of this phenomenon in May 2016 resulted in an extraordinary fire spread. The physical factors that make such a phenomenon possible are complex to identify. They are related to the presence of convective instabilities in the atmosphere. Also the heat power of the fire line will closely determine the distance covered by the incandescent particles. 
+We have revealed this phenomenon during the Fort McMurray fire episode in Canada by applying a descriptive modeling (DBSCAN). A few days of occurrence of this phenomenon in May 2016 resulted in an extraordinary fire spread. The physical factors that make such a phenomenon possible are complex to identify. They are related to the presence of convective instabilities in the atmosphere. Also the heat power of the fire line will closely determine the distance covered by the incandescent particles. 
 
 The dataset is divided chronologically into two parts: a 38-day training sample (approx. 56% or 111150 observations) and a 30-day validation sample (approx. 44% or 87750 observations). We also reserve a 9-day test sample. <br/><br/>
 
