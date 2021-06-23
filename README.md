@@ -1,4 +1,4 @@
-## Modeling of the spreading of forest wildfire using a convLSTM neural network. Prediction 3-days forward.
+## Modeling of the spreading of forest wildfire using a convLSTM neural network. Prediction 3-days forward. A personal trial, unfortunately unsuccessful.😉
 
 
 
@@ -14,6 +14,8 @@ Full report is available and can be downloaded (“Report_EN”)<br/><br/>
 
 
 ##  **1.	Introduction**
+
+Firts of all, I would like to inform the reader that unfortunately the model tested for this case study does not work well and it does not give satisfactory results.
 
 This study was conducted as part of a final project which I chose as a topic to close my training at the Jedha Data science school in Paris. The aim is to test the ability of a 2D spatial model of the ConvLSTM type to predict the propagation of a forest fire. 
 
