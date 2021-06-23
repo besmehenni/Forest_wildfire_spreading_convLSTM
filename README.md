@@ -21,13 +21,13 @@ This is an exploratory study that implements a deep learning from scratch. The r
 
 The model we design uses sequences of thermal anomaly coordinates collected by satellite [1] and processed by me to obtain the appearance of a pixel image. Also, features that contribute to fire propagation are associated to each pixel and are taken into account by the model. The meteorological features come from a government site of Alberta [2].
 
-The fire sequences we are studying occurred specifically in the Alberta region of Canada. They are large fires. Four fire sequences, including the famous Fort McMurray fire in May 2016 and the Richardson fire in June 2011, will be used to train and test the model. I gave the names "Richardson phase 2" and "Alberta central" to two fire sequences, these names are fully personal.
+The fire sequences we are studying occurred specifically in the Alberta region of Canada. They are large fires. Four fire sequences, including the famous Fort McMurray fire in May 2016 and the Richardson fire in June 2011, will be used to train and test the model. I gave the names "Richardson phase 2" and "Central Alberta" to two fire sequences, these names are fully personal.
 
 
 ![PIC1](/md_images/pic1.PNG)
 
 
-## **2.	Feature engineering and data preprocessing**
+## **2.	Data preprocessing**
 
 The model actually admits two images and an associated matrix of fire influence features that correspond to two successive days of data. The output is an image of the fire positions, a prediction at a horizon of 3 days after the last input image.
 
@@ -62,7 +62,7 @@ We have revealed this phenomenon during the Fort McMurray fire episode in Canada
 
 The dataset is divided chronologically into two parts: a 38-day training sample (approx. 56% or 111150 observations) and a 30-day validation sample (approx. 44% or 87750 observations). We also reserve a 9-day test sample. <br/><br/>
 
-## **3.	Architecture of the recurrent neural network and associated parameters**
+## **3.	Architecture of the neural network and associated parameters**
 
 The proposed architecture consists of a first layer of 64 kernel ConvLSTM with a kernel size of (3x3), followed by a Maxpooling layer (2x2) which performs a subsampling operation to reduce the dimensions of the feature maps, followed by a dimension flattening and three fully-connected layers of 128,128 and 2925 neurons layers each. The layers are linked to a ReLu activation feature. A one-way classification is done at the output of the last layer using a sigmoid activation function that calculates the probability of the fire modality ("1"). 
 
