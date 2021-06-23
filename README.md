@@ -21,7 +21,7 @@ This is an exploratory study that implements a deep learning from scratch. The r
 
 The model we design uses sequences of thermal anomaly coordinates collected by satellite [1] and processed by me to obtain the appearance of a pixel image. Also, features that contribute to fire propagation are associated to each pixel and are taken into account by the model. The meteorological features come from a government site of Alberta [2].
 
-The fire sequences we are studying occurred specifically in the Alberta region of Canada. They are large fires. Four fire sequences, including the famous Fort McMurray fire in May 2016 and the Richardson fire in June 2011, will be used to train and test the model. I gave the names "Richardson phase 2" and "Central Alberta" to two fire sequences, these names are fully personal.
+The fire sequences we are studying occurred specifically in the Alberta region of Canada. They are large fires. Four fire sequences, including the famous Fort McMurray fire in May 2016 and the Richardson fire in June 2011, will be used to train and test the model. I gave the names "Richardson phase 2" and "Central Alberta" to two fire sequences, these names are purely fictional.
 
 
 ![PIC1](/md_images/pic1.PNG)
