@@ -3,7 +3,7 @@
 
 
 
-#### **Date: 23rd April 2020**
+#### **Date: original issue 23 April 2020, updated 23 june 2021**
 #### **Author: Bessam Mehenni**
 
 ### **Subject : Modeling of the spreading of a forest wildfire using a ConvLSTM neural network. Province of Alberta, Canada.**<br/><br/>
