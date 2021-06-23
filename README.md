@@ -6,7 +6,7 @@
 #### **Date: 23rd April 2020**
 #### **Author: Bessam Mehenni**
 
-### **Subject : Modeling of the spreading of a forest wildfire using a ConvLSTM recurrent neural network. Province of Alberta, Canada.**<br/><br/>
+### **Subject : Modeling of the spreading of a forest wildfire using a ConvLSTM neural network. Province of Alberta, Canada.**<br/><br/>
 Full report is available and can be downloaded (“Report_EN”)<br/><br/>
 >_Timelaps I created from MODIS data about the Fort McMurray fire sequence_
 
