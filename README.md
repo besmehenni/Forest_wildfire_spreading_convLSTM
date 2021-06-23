@@ -15,7 +15,7 @@ Full report is available and can be downloaded (“Report_EN”)<br/><br/>
 
 ##  **1.	Introduction**
 
-This study was conducted as part of a final project which I chose as a topic to close my training at the Jedha Datascience school in Paris. The aim is to test the ability of a 2D spatial model of the ConvLSTM type to predict the propagation of a forest fire. 
+This study was conducted as part of a final project which I chose as a topic to close my training at the Jedha Data science school in Paris. The aim is to test the ability of a 2D spatial model of the ConvLSTM type to predict the propagation of a forest fire. 
 
 This is an exploratory study that implements a deep learning from scratch. The reader is cautioned that this study is not based on a thorough knowledge of the state of the art in forest fire spread modeling.
 
