@@ -8,6 +8,8 @@
 
 ### **Subject : Modeling of the spreading of a forest wildfire using a ConvLSTM recurrent neural network. Province of Alberta, Canada.**<br/><br/>
 Full report is available and can be downloaded (“Report_EN”)<br/><br/>
+>_Timelaps I created from MODIS data about the Fort McMurray fire sequence_
+
 ![PIC8](/md_images/spread_gif.gif)
 
 
