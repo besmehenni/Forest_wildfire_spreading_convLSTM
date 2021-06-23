@@ -54,8 +54,9 @@ Data collected from fires in Alberta suggest several modes of fire spread. One o
 
 It is a phenomenon that can be observed in Canada, the United States, Australia and sometimes in some southern European countries such as Portugal. The explanation is that incandescent plant particles called “brandons” are projected forward. They participate in the very rapid advance of the flame front. This fire behaviour is very clearly different from other, more conventional behaviour, for which the apparent fire velocity is a few km per day.<br/><br/>
 
-![PIC3](/md_images/pic3.PNG)
+![PIC3](/md_images/pic3-1.PNG)
 
+![PIC9](/md_images/pic3-2.PNG)
 
 
 We have revealed this phenomenon during the Fort McMurray fire episode in Canada by applying a descriptive modeling (Dbsan). A few days of occurrence of this phenomenon in May 2016 resulted in an extraordinary fire spread. The physical factors that make such a phenomenon possible are complex to identify. They are related to the presence of convective instabilities in the atmosphere. Also the heat power of the fire line will closely determine the distance covered by the incandescent particles. 
