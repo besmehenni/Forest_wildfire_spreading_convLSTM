@@ -1,4 +1,4 @@
-## Modeling of the spreading of forest wildfire using a convLSTM neural network (RNN). Prediction 3-days forward.
+## Modeling of the spreading of forest wildfire using a convLSTM neural network. Prediction 3-days forward.
 
 
 
