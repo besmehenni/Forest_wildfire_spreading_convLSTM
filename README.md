@@ -35,7 +35,7 @@ The data come from three different sources:
 
 The main axes of the grid established by the meteorological web site were used as the basis for developing a finer grid of tabular data. We began by conducting some manual readings to find out the coordinates of the weather grid.
 
-![PIC10](/md_images/pic10.PNG)
+![PIC10](/md_images/pic8.PNG)
 
 
 Then, we had to build a finer secondary grid (we chose 2km x 2km) where each elementary mesh contains the following information: whether there is fire or not according to MODIS records, transposed or interpolated meteorological data, elevation data of the sites.
