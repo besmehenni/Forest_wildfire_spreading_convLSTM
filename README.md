@@ -21,7 +21,7 @@ This is an exploratory study that implements a deep learning from scratch. The r
 
 The model we design uses sequences of thermal anomaly coordinates collected by satellite [1] and processed by me to obtain the appearance of a pixel image. Also, features that contribute to fire propagation are associated to each pixel and are taken into account by the model. The meteorological features come from a government site of Alberta [2].
 
-The fire sequences we are studying occurred specifically in the Alberta region of Canada. They are large fires. Four fire sequences, including the famous Fort McMurray fire in May 2016 and the Richardson fire in June 2011, will be used to train and test the model. I gave the names "Richardson phase 2" and "Central Alberta" to two fire sequences, these names are purely fictional.
+The fire sequences we are studying occurred specifically in the Alberta region of Canada. They are large fires. Four fire sequences, including the famous Fort McMurray fire in May 2016 and the Richardson fire in June 2011, will be used to train and test the model. The Fort McMurray fire has caused the displacement of 80,000 people and required the mobilization of 3000 firefighters. I gave the names "Richardson phase 2" and "Central Alberta" to two fire sequences, these names are purely fictional.
 
 
 ![PIC1](/md_images/pic1.PNG)
@@ -44,11 +44,11 @@ In the framework of this study, the human factor of influencing the propagation 
 The wind direction is a quantity resulting from the readings of two or three weather stations around the pixel under consideration. It is obtained by an inverse distance weighted (IDW) interpolation method.
 
 The air temperature factor is not taken into account because it is intrinsic to air humidity (see diagram of humid air). 
-The slopes of the relief, a factor of importance of propagation, are not explicitly given to the model. Only the altitudes of the cells are given. 
+The slopes of the relief, a factor of importance of propagation, are not explicitly given to the model. Only the altitudes of the cells are given. They come from source [3].
 
 ![PIC2](/md_images/pic2.PNG)
 
-We decided, rightly or wrongly, to use the Brightness, a quantity measured in the same way as the position of the light by the satellite sensor. We believe that the infrared radiation is probably a mirror image of the temperature of the fire and thus of the fire intensity, which research has shown to influence the propagation of the incandescent particles [3].
+We decided, rightly or wrongly, to use the Brightness, a quantity measured in the same way as the position of the light by the satellite sensor. We believe that the infrared radiation is probably a mirror image of the temperature of the fire and thus of the fire intensity, which research has shown to influence the propagation of the incandescent particles [4].
 
 Data collected from fires in Alberta suggest several modes of fire spread. One of the phenomena is characterized by enormous apparent fire velocities and is proving to be very devastating. It is responsible for fire travel distances of several kilometers per day. This phenomenon leaves a swarm of small fires in its trail. 
 
@@ -106,7 +106,7 @@ We can say that the direct factors we have chosen are not sufficient to explain 
 
 ## **6.	Next**
 
-Research has investigated how fire and wind conditions affect the distribution behaviour of incandescent vegetation particles falling to the ground [3]. Froude's dimensionless number is introduced in order to propose laws for the calculation of the mean distance of fire jumps. The Froude number is a parameter used in fluid mechanics models to describe the flow regime. It is representative of the relative importance of inertial forces related to flow velocity versus floatability forces. In the case of the flare-up of the brandons, the regimes present may correspond either to a flow governed by the lateral wind or to an upward flow governed by the intensity of the fire. Formulas for calculating the average distance of the jump fire have been proposed as a function of the flow regime [3]. 
+Research has investigated how fire and wind conditions affect the distribution behaviour of incandescent vegetation particles falling to the ground [4]. Froude's dimensionless number is introduced in order to propose laws for the calculation of the mean distance of fire jumps. The Froude number is a parameter used in fluid mechanics models to describe the flow regime. It is representative of the relative importance of inertial forces related to flow velocity versus floatability forces. In the case of the flare-up of the brandons, the regimes present may correspond either to a flow governed by the lateral wind or to an upward flow governed by the intensity of the fire. Formulas for calculating the average distance of the jump fire have been proposed as a function of the flow regime [4]. 
 
 A model can aspire to performance if we make it easier for it to understand complex phenomena. I think that the best models for predicting fire propagation will probably be at a crossroads between Deep learning (or even Reinforcement learning) and physical modelling. It will have to rely, in addition to the direct factors known to influence fire propagation (humidity, wind speed, etc.), on parameters generally used in physical modelling to explain phenomena. The Froude number would be one of them.<br/><br/>
 
@@ -116,5 +116,7 @@ A model can aspire to performance if we make it easier for it to understand comp
 
 [2] http://www.agriculture.alberta.ca/acis/, the 27th/03/2020
 
-[3] Nicolas Sardoy. Transport et combustion de particules générées par un feu de végétation. Sciences de l’Ingénieur [Physics]. Université de Provence - Aix-Marseille I, 2007.Français. tel-00289521v2
+[3] https://earth.google.com/web/, the 27th/03/2020
+
+[4] Nicolas Sardoy. Transport et combustion de particules générées par un feu de végétation. Sciences de l’Ingénieur [Physics]. Université de Provence - Aix-Marseille I, 2007.Français. tel-00289521v2
 
