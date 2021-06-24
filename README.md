@@ -124,7 +124,7 @@ Our model does not provide an accurate view of the patterns of fire spread at th
 The fire data are from significant fire episodes in terms of duration and extent. It seems difficult to image that we can collect more fire data from Alberta in large quantities. 
 
 Nevertheless, our model has shown an ability to track an increase or decrease in fire activity, depending on the combined weather and non-weather conditions.
-It should be pointed out that we have naively fed our model by putting it in charge of building its understanding of propagation phenomena. But phenomena are not simple. They are complex and heterogeneous. For example, in the Fort McMurray surveys, we have observed that during two different days with similar conditions (wind speed, hydrometry, etc.), antagonistic phenomena occurred. In one case, a spread of 5 km in one day. In the other case, a propagation by particle jumps of more than 50 km. 
+It should be pointed out that we have naively fed our model by putting it in charge of building its understanding of propagation phenomena. But phenomena are not simple. They are complex and heterogeneous. For example, in the Fort McMurray records, we have observed that during two different days with similar conditions (wind speed, hydrometry, etc.), antagonistic phenomena occurred. In one case, a spread of 5 km in one day. In the other case, a propagation by particle jumps of more than 50 km. 
 
 We can say that the direct factors we have chosen are not sufficient to explain these phenomena. Other parameters related to the physics of fire and air in the atmosphere are involved.<br/><br/>
 
