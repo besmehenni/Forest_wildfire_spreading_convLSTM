@@ -1,9 +1,9 @@
-## Modeling of the spreading of forest wildfire using a convLSTM neural network. Prediction 3-days forward. A personal trial, unfortunately unsuccessful.😉
+## Modeling of the spreading of forest wildfire using a convLSTM neural network. Prediction 3-days forward. A personal trial, unfortunately unsuccessful🤷
 
 
 
 
-#### **Date: original issue 23 April 2020, updated 23 june 2021**
+#### **Date: original issue 23rd April 2020, updated 24th June 2021**
 #### **Author: Bessam Mehenni**
 
 ### **Subject : Modeling of the spreading of a forest wildfire using a ConvLSTM neural network. Province of Alberta, Canada.**<br/><br/>
