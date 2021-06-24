@@ -1,4 +1,4 @@
-## Modeling of the spreading of forest wildfire using a convLSTM neural network. Prediction 3-days forward. A personal trial, unfortunately unsuccessful🤷
+## Modeling of the spreading of forest wildfire using a convLSTM neural network. Prediction 3-days forward. A personal trial, unfortunately unsuccessful 🤷
 
 
 
@@ -29,7 +29,7 @@ The fire sequences we are studying occurred specifically in the Alberta region o
 The data come from three different sources:
 -	MODIS satellite data were downloaded ad-hoc from source [1] having specified the spatial and temporal windows. 
 -	the meteorological data were downloaded ad-hoc from source [2].
--	the topography data were manually read from the source [3].
+-	the topography data were manually read from the source [3].<br/><br/>
 
 ## **2.	Approach**
 
