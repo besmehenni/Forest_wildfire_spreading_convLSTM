@@ -45,7 +45,7 @@ Then, we had to build a finer secondary grid (we chose 2km x 2km) where each ele
 The major difficulties of this project concern the preprocessing of the data. It is a craftsman's work, difficult to generalize: 
 -	the data collection is not automated and even involves manual readings.
 -	the pre-processing was tailor-made for the four selected fire study regions.
-We spent a lot of time on developing the pre-processing programs. During their execution, the pre-processing programs ran for hours during the night in order to arrive fortunately at the finished datasets that we provide here on Github.
+We spent a lot of time on developing the pre-processing programs. During their execution, the pre-processing programs ran for hours during the night in order to arrive fortunately at the finished datasets that we provide here on Github (train_val & test datasets).
 
 Once the preparation was complete, we started by visualizing the data. Our prejudices about forest fires, the idea that a forest fire spreads at a homogeneous speed from near to far, were turned upside down when we observed a noticeable propagation pattern of several tens of km per day. The wind intensities on those days could be described as "normal", which calls into question the implication of the wind. Here it is in fact the intensity of the fire outbreaks that creates large ascending air flows; these flows carry incandescent particles and they participate in a very rapid advance of the fire.
 We studied how fire clusters evolve, by means of the descriptive modeling DBSCAN. This technique was very useful to understand the propagation. It consists in assigning the cluster points from close to close. 
