@@ -1,4 +1,4 @@
-## Modeling of the spreading of forest wildfire using a convLSTM neural network. Prediction 3-days forward. A personal trial, unfortunately unsuccessful 🤷
+## Modeling of the spreading of forest wildfire using a convLSTM neural network. Prediction 3-days forward. A personal trial, and unsatisfactory results 🤷
 
 
 
