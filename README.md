@@ -55,7 +55,7 @@ We studied how fire clusters evolve, by means of the descriptive modeling DBSCAN
 The next step was to try to model the fire propagation in order to predict it. We tried a hybrid deep learning model of Convolution and LSTM. This attempt to model fire propagation using a ConvLSTM model did not yield satisfactory results.
 
 
-Fluid mechanics researchers have introduced dimensionless variables into the empirical correlations whose purpose is to model physical phenomena. Despite this failed attempt, our progress during this project leads us to believe that a purely data-driven model will have difficulties in translating propagation phenomena of such complexity. We believe that it would be relevant for a data-driven model to rely on some dimensionless variables of physics (the Froude variable for example).<br/><br/>
+Fluid mechanics researchers have introduced dimensionless variables into the empirical correlations whose purpose is to model physical phenomena. Despite this failed attempt, our progress during this project leads us to believe that a purely data-driven model will have difficulties in translating propagation phenomena of such complexity. We believe that it would be relevant for a data-driven model to rely on some dimensionless variables of physics (Froude variable to quote one).<br/><br/>
 
 ## **3.	Data preprocessing**
 
