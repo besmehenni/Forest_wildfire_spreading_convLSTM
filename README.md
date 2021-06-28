@@ -74,6 +74,7 @@ In the framework of this study, the human factor of influencing the propagation 
 The wind direction is a quantity resulting from the readings of two or three weather stations around the pixel under consideration. It is obtained by an inverse distance weighted (IDW) interpolation method.
 
 The air temperature factor is not taken into account because it is intrinsic to air humidity (see Mollier chart). 
+
 The slopes of the relief, a factor of importance of propagation, are not explicitly given to the model. Only the altitudes of the cells are given. They come from source [3].
 
 ![PIC2](/md_images/pic2.PNG)
