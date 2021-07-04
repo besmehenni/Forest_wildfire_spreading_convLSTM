@@ -11,7 +11,7 @@ Full report is available and can be downloaded (“Report_EN rev 1”)
 
 PDF of an extract of code (ConvLSTM model) can be downloaded ("Extract_of_code")<br/><br/>
 
->_Timelaps I created from MODIS data about the Fort McMurray fire sequence
+>_Timelaps I created from MODIS data about the Fort McMurray fire sequence_
 
 ![PIC8](/md_images/spread_gif.gif)
 
