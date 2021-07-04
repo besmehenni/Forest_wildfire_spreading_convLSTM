@@ -52,7 +52,7 @@ Once the preparation was complete, we started by visualizing the data. Our preju
 
 We studied how fire clusters evolve, by means of the descriptive modeling DBSCAN. This technique was very useful to understand the propagation. It consists in assigning the cluster points from close to close. 
 
-The next step was to try to model the fire propagation in order to predict it. We tried a deep learning model using ConvLSTM layers. It is a Recurrent layer, just like LSTM, but internal matrix multiplicators are exchanged with convolution operations. This attempt to model fire propagation using ConvLSTM did not yield satisfactory results.
+The next step was to try to model the fire propagation in order to predict it. We tried a deep learning model using ConvLSTM layers. It is a Recurrent layer, just like LSTM, but internal matrix multiplicators are exchanged with convolution operations [5]. This attempt to model fire propagation using ConvLSTM did not yield satisfactory results.
 
 
 Fluid mechanics researchers have introduced dimensionless variables into the empirical correlations whose purpose is to model physical phenomena. Despite this failed attempt, our progress during this project leads us to believe that a purely data-driven model will have difficulties in translating propagation phenomena of such complexity. We believe that it would be relevant for a data-driven model to rely on some dimensionless variables of physics (Froude variable to quote one).<br/><br/>
