@@ -1,4 +1,4 @@
-## Modeling of the spreading of forest wildfire using a convLSTM neural network. Prediction 3-days forward. A personal trial, and unsatisfactory results 🤷
+## Modeling of the spreading of forest wildfire using a neural network with ConvLSTM cells. Prediction 3-days forward. A personal trial, and unsatisfactory results 🤷
 
 
 
@@ -6,12 +6,12 @@
 #### **Date: original issue 23rd April 2020, updated 24th June 2021**
 #### **Author: Bessam Mehenni**
 
-### **Subject : Modeling of the spreading of a forest wildfire using a ConvLSTM neural network. Province of Alberta, Canada.**<br/><br/>
+### **Subject : Modeling of the spreading of a forest wildfire using a neural network with ConvLSTM cells. Province of Alberta, Canada.**<br/><br/>
 Full report is available and can be downloaded (“Report_EN rev 1”)
 
 PDF of an extract of code (ConvLSTM model) can be downloaded ("Extract_of_code")<br/><br/>
 
->_Timelaps I created from MODIS data about the Fort McMurray fire sequence_
+>_Timelaps I created from MODIS data about the Fort McMurray fire sequence
 
 ![PIC8](/md_images/spread_gif.gif)
 
@@ -52,7 +52,7 @@ Once the preparation was complete, we started by visualizing the data. Our preju
 
 We studied how fire clusters evolve, by means of the descriptive modeling DBSCAN. This technique was very useful to understand the propagation. It consists in assigning the cluster points from close to close. 
 
-The next step was to try to model the fire propagation in order to predict it. We tried a hybrid deep learning model of Convolution and LSTM. This attempt to model fire propagation using a ConvLSTM model did not yield satisfactory results.
+The next step was to try to model the fire propagation in order to predict it. We tried a deep learning model using ConvLSTM layers. It is a Recurrent layer, just like LSTM, but internal matrix multiplicators are exchanged with convolution operations. This attempt to model fire propagation using ConvLSTM did not yield satisfactory results.
 
 
 Fluid mechanics researchers have introduced dimensionless variables into the empirical correlations whose purpose is to model physical phenomena. Despite this failed attempt, our progress during this project leads us to believe that a purely data-driven model will have difficulties in translating propagation phenomena of such complexity. We believe that it would be relevant for a data-driven model to rely on some dimensionless variables of physics (Froude variable to quote one).<br/><br/>
@@ -151,4 +151,6 @@ A model can aspire to performance if we make it easier for it to understand comp
 [3] https://earth.google.com/web/, the 27th/03/2020
 
 [4] Nicolas Sardoy. Transport et combustion de particules générées par un feu de végétation. Sciences de l’Ingénieur [Physics]. Université de Provence - Aix-Marseille I, 2007.Français. tel-00289521v2
+
+[5] Alexandre Xavier from Neuronio, An introduction to ConvLSTM (25th/03/2019), https://medium.com/neuronio/an-introduction-to-convlstm-55c9025563a7
 
