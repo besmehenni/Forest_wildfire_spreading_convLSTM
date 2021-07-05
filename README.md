@@ -52,7 +52,21 @@ Once the preparation was complete, we started by visualizing the data. Our preju
 
 We studied how fire clusters evolve, by means of the descriptive modeling DBSCAN. This technique was very useful to understand the propagation. It consists in assigning the cluster points from close to close. 
 
-The next step was to try to model the fire propagation in order to predict it. We tried a deep learning model using ConvLSTM. It is a Recurrent layer, just like LSTM, but internal matrix multiplicators are exchanged with convolution operations. This attempt to model fire propagation using ConvLSTM did not yield satisfactory results.
+The next step was to try to model the fire propagation in order to predict it. We tried a deep learning model using ConvLSTM. A. Xavier says in [5]: "It is a Recurrent layer, just like LSTM, but internal matrix multiplicators are exchanged with convolution operations". This attempt to model fire propagation using ConvLSTM did not yield satisfactory results.
 
 
 Fluid mechanics researchers have introduced dimensionless variables into the empirical correlations whose purpose is to model physical phenomena. Despite this failed attempt, our progress during this project leads us to believe that a purely data-driven model will have difficulties in translating propagation phenomena of such complexity. We believe that it would be relevant for a data-driven model to rely on some dimensionless variables of physics (Froude variable to quote one).<br/><br/>
+
+
+## **3.	References**
+
+[1] https://firms.modaps.eosdis.nasa.gov/, the 27th/03/2020
+
+[2] http://www.agriculture.alberta.ca/acis/, the 27th/03/2020
+
+[3] https://earth.google.com/web/, the 27th/03/2020
+
+[4] Nicolas Sardoy. Transport et combustion de particules générées par un feu de végétation (2007). Sciences de l’Ingénieur [Physics]. Université de Provence - Aix-Marseille I, 2007.Français. tel-00289521v2
+
+[5] Alexandre Xavier from Neuronio, An introduction to ConvLSTM (25th/03/2019), https://medium.com/neuronio/an-introduction-to-convlstm-55c9025563a7
+
