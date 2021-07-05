@@ -114,6 +114,7 @@ The following figures are the confusion matrix and the ROC curve on the test sam
 The overall Accuracy Score is 90.0%. We must pay special attention to the Recall parameter because it is a problem not to predict burning pixels that are actually burning. Here the Recall, which we would like to see as high as possible, is only 14%. 
 The following figure compares the predicted and actual images over the 9 days of the test sample. The fire probability threshold is set at 0.65.
 
+
 ![PIC7](/md_images/pic7.PNG)
 
 
