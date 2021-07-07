@@ -3,7 +3,7 @@
 
 
 
-#### **Date: originally issued 23rd April 2020, updated 24th June 2021**
+#### **Date: originally issued 23rd April 2020, updated 24th June 2021 in Towards Data Science**
 #### **Author: Bessam Mehenni**
 
 ### **Subject : Modeling of the spreading of a forest wildfire using a neural network with ConvLSTM cells. Province of Alberta, Canada.**<br/><br/>
@@ -20,7 +20,7 @@ PDF of an extract of code (model with ConvLSTM) can be downloaded ("Extract_of_c
 
 This study was conducted as part of a final project which I chose as a topic to close my training at the Jedha Data science school in Paris. The aim is to test the ability of a 2D spatial model with a ConvLSTM layer to predict the propagation of a forest fire. 
 
-This is an exploratory study that implements a deep learning from scratch. The reader is cautioned that this study is not based on a thorough knowledge of the state of the art in forest fire spread modeling.
+This is an exploratory study that implements a deep learning from scratch. The reader is cautioned that this study is not based on a thorough knowledge of the state of the art in forest fire spread modeling. The author is not knowledgeable in the discipline of forest fires either.
 
 The model we design uses sequences of thermal anomaly coordinates collected by satellite [1] and processed by me to obtain the appearance of a pixel image. Also, features that contribute to fire propagation are associated to each pixel and are taken into account by the model. The meteorological features come from a government site of Alberta [2].
 
@@ -48,7 +48,7 @@ The major difficulties of this project concern the preprocessing of the data. It
 
 We spent a lot of time on developing the pre-processing programs. During their execution, the pre-processing programs ran for hours during the night in order to arrive fortunately at the finished datasets that we provide here on Github (train_val & test datasets).
 
-Once the preparation was complete, we started by visualizing the data. Our prejudices about forest fires, the idea that a forest fire spreads at a homogeneous speed from near to far, were turned upside down when we observed a noticeable propagation pattern of several tens of km per day. The wind intensities on those days could be described as "normal", which calls into question the implication of the wind. Here it is in fact the intensity of the fire outbreaks that creates large ascending air flows; these flows carry incandescent particles and they participate in a very rapid advance of the fire.
+Once the preparation was complete, we started by visualizing the data. Our prejudices about forest fires, the idea that a forest fire spreads at a homogeneous speed from near to far, were turned upside down when we observed a noticeable propagation pattern of several tens of km per day. The wind intensities on those days could be described as "normal" at the weather stations, which calls into question the idea of a primary cause related to the wind. Here it is in fact the intensity of the fire outbreaks that creates large ascending air flows; these flows carry incandescent particles and they participate in a very rapid advance of the fire.
 
 We studied how fire clusters evolve, by means of the descriptive modeling DBSCAN. This technique was very useful to understand the propagation. It consists in assigning the cluster points from close to close. 
 
