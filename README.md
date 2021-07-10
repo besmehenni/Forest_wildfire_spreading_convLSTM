@@ -18,7 +18,7 @@ PDF of an extract of code (model with ConvLSTM) can be downloaded ("Extract_of_c
 
 ##  **1.	Introduction**
 
-This study was conducted as part of a final project which I chose as a topic to close my training at the Jedha Data science school in Paris. The aim is to test the ability of a 2D spatial model with a ConvLSTM layer to predict the propagation of a forest fire. 
+This study was conducted as part of a final project which I chose as a topic to close my training at a Data science school in Paris. The aim is to test the ability of a 2D spatial model with a ConvLSTM layer to predict the propagation of a forest fire. 
 
 This is an exploratory study that implements a deep learning from scratch. The reader is cautioned that this study is not based on a thorough knowledge of the state of the art in forest fire spread modeling. The author is not knowledgeable in the discipline of forest fires either.
 
